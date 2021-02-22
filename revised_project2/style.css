@@ -1,0 +1,92 @@
+
+/* Set Code */
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.row{
+    margin: 1.5rem 0 2rem 6rem;
+}
+
+/* navigation bar */
+
+.container-fluid a{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+nav {
+    background-color: teal;
+}
+
+.nav-item a{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Top section */
+
+.top .row{
+    background-color: rgb(240, 240, 240);
+    margin: 1rem 2rem 0 6.5rem;
+}
+
+.top-text{
+    padding: 3rem 1rem 1rem 3rem;
+    font-size: 20px;
+}
+
+.top img{
+    width: 37rem; 
+    height: 21rem;
+}
+
+
+
+/* middle section */
+
+.middle {
+    background-color: rgb(240, 240, 240);
+    margin: 0; 
+}
+
+/* bottom section */
+
+.card{
+    border-radius: 0;
+    border: 0;
+    background-color: rgb(204, 204, 204);
+}
+
+.btn-primary {
+    background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 0;
+}
+
+.cards-bottom{
+    width: 17rem;
+}
+
+.card-img-top{
+    width:15rem; 
+    height:10rem;
+}
+
+@media screen and (max-width: 797px){
+
+    .middle{
+        padding: 1rem;
+        font-size: 15px;
+    }
+
+    .mid-top h2, .mid-bottom h3, h4, .card-title{
+        font-size:20px;
+    }
+
+    .top-text{
+        font-size: 15px;
+    } 
+} 
